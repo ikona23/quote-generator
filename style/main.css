@@ -1,0 +1,24 @@
+html *
+{
+    text-align: center;
+    background: #61BD6D;
+}
+.box {
+    height: 400px;
+    background: #61BD6D;
+    margin-left:auto;
+    margin-right:auto;
+    width: 600px;
+}
+h1{
+  font-size: 250%;
+  color:white;
+}
+.quoteBox{
+    text-align: center;
+    background-color:red;
+}
+button {
+  background: white;
+  height:30px;
+}
