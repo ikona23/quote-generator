@@ -1,4 +1,5 @@
 // make connection
+
 function getQuote() {
   var output = $.ajax({
       url: 'https://imtoobose-really-awful-poems-v1.p.mashape.com/poem', // The URL to the API. You can get this in the API page of the API you intend to consume
@@ -7,9 +8,10 @@ function getQuote() {
       dataType: 'json',
       success: function(data) {
       	document.getElementById("output").innerHTML = data.source;
-        console.log(data)
         var poem = data.poem;
         var author = data.author;
+        //display poem and author
+        document.write(data.poem + "<br>" + data.author)
       },
     error: function(err) { alert(err); },
       beforeSend: function(xhr) {   xhr.setRequestHeader("X-Mashape-Authorization","4X7dQjipLbmsh0NhnAussclyCq53p1lJEWCjsnAtOsLW035rJ7"); // Enter here your Mashape key
@@ -20,3 +22,7 @@ function getQuote() {
 function testButton() {
     document.getElementById("button").innerHTML = "This is THE qoute";
 }
+
+// var qoutage = poem.map(function(getQuote) {
+//   return poem
+// })
