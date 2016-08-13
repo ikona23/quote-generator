@@ -1,24 +1,34 @@
 html *
 {
     text-align: center;
-    background: #61BD6D;
 }
-.box {
-    height: 400px;
-    background: #61BD6D;
-    margin-left:auto;
-    margin-right:auto;
-    width: 600px;
-}
+
 h1{
-  font-size: 250%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 5rem;
   color:white;
 }
-.quoteBox{
+#thePoem{
+    margin-top: 1rem;
+    padding: 2rem;
     text-align: center;
-    background-color:red;
+    color: white;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    text-align: center justify;
+    margin: 0 3rem;
 }
 button {
   background: white;
-  height:30px;
+  height:4rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+  padding-bottom: 5rem;
+  border-style: double;
+  border-width: 1.5rem;
+  border-color: white;
+  background: #61BD6D;
 }
