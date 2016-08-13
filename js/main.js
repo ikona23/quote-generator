@@ -18,11 +18,9 @@ function getQuote() {
       }
   });
   }
-
 function testButton() {
-    document.getElementById("button").innerHTML = "This is THE qoute";
+    document.getElementById("button").innerHTML = output;
 }
-
 // var qoutage = poem.map(function(getQuote) {
 //   return poem
 // })

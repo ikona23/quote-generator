@@ -11,14 +11,12 @@ html *
     width: 600px;
 }
 h1{
-  font-size: 250%;
+  font-size: 3em;
   color:white;
+  margin-top: 6rem;
 }
-.quoteBox{
+.box{
     text-align: center;
-    background-color:red;
-}
-button {
-  background: white;
-  height:30px;
+    border: 2px solid; rgb(199, 198, 207);
+    border-radius: 25px;
 }
