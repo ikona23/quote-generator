@@ -1,4 +1,5 @@
-function doIt() {
+// make connection
+function getQuote() {
   var output = $.ajax({
       url: 'https://imtoobose-really-awful-poems-v1.p.mashape.com/poem', // The URL to the API. You can get this in the API page of the API you intend to consume
       type: 'GET', // The HTTP Method, can be GET POST PUT DELETE etc
@@ -15,8 +16,6 @@ function doIt() {
       }
   });
   }
-
-
 
 function testButton() {
     document.getElementById("button").innerHTML = "This is THE qoute";

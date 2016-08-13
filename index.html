@@ -4,37 +4,26 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
-  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <script src="js/main.js"></script>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta charset="utf-8">
-  <title>Mashape Query</title>
+  <title>Quote Generator</title>
 </head>
 <body>
-  <div class="container">
+  <div id="container">
   	<div id="row">
-  <h1 class="text-center">Get Random Poems</h1>
-  <button onclick="doIt()">Get the "poem"</button>
-    <div id="output">Open your console:</div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-1">
-        <!-- Just spacing -->
-      </div>
-        <div class="box">
-          <div class="quote">
-            <span id="quote"></span>
-          </div>
-          <div class="author"><span id="author"></span>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-1">
-        <!-- Just spacing -->
-      </div>
-    </div>
+      <h1 class="text-center">Get Random Poems</h1>
+      <button onclick="getQuote()">Get the "poem"</button>
+        <div id="output">Open your console:</div>
+          <div class="row">
+              <div class="box">
+                <span id="quote"></span>
+                <span id="author"></span>
+              </div> <!-- efc box -->
+          </div>  <!-- efid row -->
+    </div><!-- efid container -->
   </div>
 </body>
 </html>
