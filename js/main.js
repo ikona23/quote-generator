@@ -19,7 +19,7 @@ function doIt() {
         var poem = data.poem;
         var author = data.author
       	document.getElementById("thePoem").innerHTML = '" '+ author + ' "' +"<br>" + "<br>" + '" ' + poem + '. "';
-        console.log(data)
+        //console.log(data)
 
       },
     error: function(err) { console.log(err); },
