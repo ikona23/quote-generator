@@ -4,17 +4,13 @@ html *
 }
 
 h1{
-<<<<<<< HEAD
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-size: 5rem;
-=======
   font-size: 3em;
->>>>>>> 61e846b962c9f71104e2bca03b393582fbca301f
   color:white;
   margin-top: 6rem;
 }
-<<<<<<< HEAD
 #thePoem{
     margin-top: 1rem;
     padding: 2rem;
@@ -37,10 +33,10 @@ button {
   border-width: 1.5rem;
   border-color: white;
   background: #61BD6D;
-=======
+}
+
 .box{
     text-align: center;
     border: 2px solid; rgb(199, 198, 207);
     border-radius: 25px;
->>>>>>> 61e846b962c9f71104e2bca03b393582fbca301f
 }

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.addEventListener('DOMContentLoaded', init);
 
 function init () {
@@ -7,41 +7,27 @@ function init () {
 }
 
 function doIt() {
-=======
 // make connection
 
-function getQuote() {
->>>>>>> 61e846b962c9f71104e2bca03b393582fbca301f
   var output = $.ajax({
       url: 'https://imtoobose-really-awful-poems-v1.p.mashape.com/poem', // The URL to the API. You can get this in the API page of the API you intend to consume
       type: 'GET', // The HTTP Method, can be GET POST PUT DELETE etc
       data: {}, // Additional parameters here
       dataType: 'json',
       success: function(data) {
-<<<<<<< HEAD
+
         var poem = data.poem;
         var author = data.author
       	document.getElementById("thePoem").innerHTML = '" '+ author + ' "' +"<br>" + "<br>" + '" ' + poem + '. "';
         console.log(data)
-=======
-      	document.getElementById("output").innerHTML = data.source;
-        var poem = data.poem;
-        var author = data.author;
-        //display poem and author
-        document.write(data.poem + "<br>" + data.author)
->>>>>>> 61e846b962c9f71104e2bca03b393582fbca301f
+
       },
     error: function(err) { console.log(err); },
       beforeSend: function(xhr) {   xhr.setRequestHeader("X-Mashape-Authorization","4X7dQjipLbmsh0NhnAussclyCq53p1lJEWCjsnAtOsLW035rJ7"); // Enter here your Mashape key
       }
   });
   }
-<<<<<<< HEAD
-=======
-function testButton() {
-    document.getElementById("button").innerHTML = output;
-}
+
 // var qoutage = poem.map(function(getQuote) {
 //   return poem
 // })
->>>>>>> 61e846b962c9f71104e2bca03b393582fbca301f
