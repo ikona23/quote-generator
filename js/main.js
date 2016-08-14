@@ -17,7 +17,7 @@ function doIt() {
       	document.getElementById("thePoem").innerHTML = '" '+ author + ' "' +"<br>" + "<br>" + '" ' + poem + '. "';
         console.log(data)
       },
-    error: function(err) { alert(err); },
+    error: function(err) { console.log(err); },
       beforeSend: function(xhr) {   xhr.setRequestHeader("X-Mashape-Authorization","4X7dQjipLbmsh0NhnAussclyCq53p1lJEWCjsnAtOsLW035rJ7"); // Enter here your Mashape key
       }
   });
